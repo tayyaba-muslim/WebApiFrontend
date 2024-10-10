@@ -1,14 +1,14 @@
-﻿@model IEnumerable<WebapiFrontend.Models.Product>
+﻿@model IEnumerable<WebapiFrontend.Models.Brand>
 
 @{
-    ViewData["Title"] = "Product";
+    ViewData["Title"] = "Brand";
 }
 
 
 <p>
-    <a class="btn btn-primary" asp-action="CreateProduct">Create New</a>
+    <a class="btn btn-primary" asp-action="CreateBrand">Create New</a>
 </p>
-<h1 class="text-center">All Products</h1>
+<h1 class="text-center">All Brands</h1>
 <table class="table table-responsive">
     <thead>
         <tr class="text-center">
@@ -20,12 +20,6 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Price)
-            </th>
-            <th>
-                Brand Name
             </th>
             <th>Action</th>
         </tr>
@@ -44,16 +38,10 @@
                     @Html.DisplayFor(modelItem => item.Description)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Price)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Brands.Name)
-                </td>
-                <td>
-                    <a class="btn btn-warning" asp-action="UpdateProduct" asp-route-id="@item.Id">UpdateProduct</a>
-                    @* <a class="btn btn-success" asp-action="DetailProduct" asp-route-id="@item.Id">DetailProduct</a> *@
-                    <a class="btn btn-danger" asp-action="DeleteProduct" asp-route-id="@item.Id">DeleteProduct</a>
-                    @* @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                    <a class="btn btn-warning" asp-action="UpdateBrand" asp-route-id="@item.Id">UpdateBrand</a>
+                    <a class="btn btn-success" asp-action="DetailBrand" asp-route-id="@item.Id">DetailBrand</a>
+                    <a class="btn btn-danger" asp-action="DeleteBrand" asp-route-id="@item.Id">DeleteBrand</a>
+                    @*                 @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
                 @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
                 @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ }) *@
                 </td>

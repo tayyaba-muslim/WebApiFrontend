@@ -1,0 +1,40 @@
+﻿@model WebapiFrontend.Models.BrandDTO
+
+@{
+    ViewData["Title"] = "Update Brand";
+}
+
+<h1 class="text-center">Update Brand</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4" style="margin:0 auto 0 auto;">
+        <form asp-action="UpdateBrand" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <input asp-for="Id" class="form-control" value="@ViewBag.id" type="hidden" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" value="@ViewBag.Name" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" value="@ViewBag.Descroption" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="mt-3">
+    <a class="btn btn-dark" asp-action="Brand">Back to List</a>
+</div>

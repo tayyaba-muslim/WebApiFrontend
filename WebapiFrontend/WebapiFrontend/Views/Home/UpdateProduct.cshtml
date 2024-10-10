@@ -1,39 +1,39 @@
 ﻿@model WebapiFrontend.Models.ProductDTO
 
 @{
-    ViewData["Title"] = "CreateProduct";
+    ViewData["Title"] = "UpdateProduct";
 }
 
-<h1 class="text-center">CreateProduct</h1>
+<h1 class="text-center">UpdateProduct</h1>
 
 <hr />
 <div class="row">
     <div class="col-md-4" style="margin: 0 auto 0 auto">
-        <form asp-action="CreateProduct" method="post">
+        <form asp-action="UpdateProduct">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            
+                <input asp-for="Id" class="form-control" type="hidden" value="@ViewBag.id"/>
             <div class="form-group">
                 <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" class="form-control" />
+                <input asp-for="Name" class="form-control" value="@ViewBag.Name" />
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Description" class="control-label"></label>
-                <input asp-for="Description" class="form-control" />
+                <input asp-for="Description" class="form-control" value="@ViewBag.Description" />
                 <span asp-validation-for="Description" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Price" class="control-label"></label>
-                <input asp-for="Price" class="form-control" />
+                <input asp-for="Price" class="form-control" value="@ViewBag.Price" />
                 <span asp-validation-for="Price" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="BrandId" class="control-label"></label>
-                <input asp-for="BrandId" class="form-control" />
+                <input asp-for="BrandId" class="form-control" value="@ViewBag.BrandId" />
                 <span asp-validation-for="BrandId" class="text-danger"></span>
             </div>
             <div class="form-group mt-3">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>
     </div>

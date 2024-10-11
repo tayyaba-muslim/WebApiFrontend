@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+
 using Newtonsoft.Json;
 
 using System.Diagnostics;
@@ -21,6 +22,18 @@ namespace WebapiFrontend.Controllers
         }
 
         // See All Brand
+
+        [HttpGet]
+        public List<Brand> getBrand()
+        {
+            var url = "https://localhost:7099/api/Brand/AllBrands";
+            using (WebClient web = new WebClient())
+            {
+                string jsonStr = web.DownloadString(url);
+                List<Brand> brand = JsonConvert.DeserializeObject<List<Brand>>(jsonStr);
+                return(brand);
+            }
+        }
 
         [HttpGet]
         public IActionResult Brand()
@@ -145,6 +158,11 @@ namespace WebapiFrontend.Controllers
 
         public IActionResult CreateProduct()
         {
+            List<Brand> brands = new List<Brand>();
+
+            brands = getBrand();
+
+            ViewBag.brand = brands;
             return View();
         }
 
@@ -181,7 +199,7 @@ namespace WebapiFrontend.Controllers
                 ViewBag.Name = product.Name;
                 ViewBag.Descroption = product.Description;
                 ViewBag.Price = product.Price;
-                ViewBag.BrandId = product.BrandId;
+                ViewBag.BrandId = product.Brands.Name;
 
                 return View();
             }

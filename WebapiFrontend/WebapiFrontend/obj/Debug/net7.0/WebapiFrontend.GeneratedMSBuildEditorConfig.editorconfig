@@ -9,67 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebapiFrontend
 build_property.RootNamespace = WebapiFrontend
-build_property.ProjectDir = E:\Github\WebApiFrontend\WebapiFrontend\WebapiFrontend\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\asp\Documents\GitHub\WebApiFrontend\WebapiFrontend\WebapiFrontend\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\Github\WebApiFrontend\WebapiFrontend\WebapiFrontend
+build_property.MSBuildProjectDirectory = C:\Users\asp\Documents\GitHub\WebApiFrontend\WebapiFrontend\WebapiFrontend
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/Github/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/Home/Brand.cshtml]
+[C:/Users/asp/Documents/GitHub/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/Home/Brand.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCcmFuZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Github/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/Home/CreateBrand.cshtml]
+[C:/Users/asp/Documents/GitHub/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/Home/CreateBrand.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGVCcmFuZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Github/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/Home/CreateProduct.cshtml]
+[C:/Users/asp/Documents/GitHub/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/Home/CreateProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGVQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Github/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/Home/DeleteBrand.cshtml]
+[C:/Users/asp/Documents/GitHub/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/Home/DeleteBrand.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZWxldGVCcmFuZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Github/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/Home/DeleteProduct.cshtml]
+[C:/Users/asp/Documents/GitHub/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/Home/DeleteProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZWxldGVQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Github/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/Home/Index.cshtml]
+[C:/Users/asp/Documents/GitHub/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Github/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/Home/Product.cshtml]
+[C:/Users/asp/Documents/GitHub/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/Home/Product.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Github/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/Home/UpdateBrand.cshtml]
+[C:/Users/asp/Documents/GitHub/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/Home/UpdateBrand.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVcGRhdGVCcmFuZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Github/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/Home/UpdateProduct.cshtml]
+[C:/Users/asp/Documents/GitHub/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/Home/UpdateProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVcGRhdGVQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Github/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/Shared/Error.cshtml]
+[C:/Users/asp/Documents/GitHub/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Github/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/asp/Documents/GitHub/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Github/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/_ViewImports.cshtml]
+[C:/Users/asp/Documents/GitHub/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Github/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/_ViewStart.cshtml]
+[C:/Users/asp/Documents/GitHub/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Github/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/Shared/_Layout.cshtml]
+[C:/Users/asp/Documents/GitHub/WebApiFrontend/WebapiFrontend/WebapiFrontend/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4axworq4kx

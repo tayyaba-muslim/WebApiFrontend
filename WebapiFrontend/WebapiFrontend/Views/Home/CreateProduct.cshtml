@@ -2,6 +2,7 @@
 
 @{
     ViewData["Title"] = "CreateProduct";
+    var brands = ViewBag.brand as IEnumerable<WebapiFrontend.Models.Brand>;
 }
 
 <h1 class="text-center">CreateProduct</h1>
@@ -28,11 +29,15 @@
                 <span asp-validation-for="Price" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="BrandId" class="control-label"></label>
-                <input asp-for="BrandId" class="form-control" />
+                <label asp-for="BrandId" class="control-label">Brands Name</label>
+                <select asp-for="BrandId" class="form-control" />
+                @foreach(var item in brands)
+                {
+                    <option value="@item.Id">@item.Name</option>
+                }
                 <span asp-validation-for="BrandId" class="text-danger"></span>
             </div>
-            <div class="form-group mt-3">
+            <div class="form-group mt-5">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
